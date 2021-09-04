@@ -1,0 +1,1 @@
+This is an attempt to recreate the Google Homepage using basic HTML, CSS, and developer tools. Hopefully I'll be able to use Command Line well, too.
