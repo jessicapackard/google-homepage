@@ -4,18 +4,13 @@
 
     <style>
     
-    #about{
-       grid-column-start: 1;
-       grid-column-end: 2;
+    #leftheader{
+       grid-column: 1/2;
     }
-    #store{
-       grid-column-start: 2;
-       grid-column-end: 3;
-    }
-    #gmail{
-        grid-column-start: 4;
-        grid-column-end: 5;
-    }
+
+    #rightheader{
+        grid-column: 6/7;}
+    
     #profilelogo{
         width:25px;
     }
@@ -31,9 +26,12 @@
     #voicesearch{
         width:15px;
     }
-    .footer{
-       grid-area:3/1/4/7;
-       
+    #leftfooter{
+       grid-area:3/1/4/3;
+    
+    }
+    #rightfooter{
+        grid-area:3/5/4/7;
     }
     .container{
         display: grid;
@@ -45,11 +43,11 @@
 
 <div class="container">
     
-        <div id="about"><a href="">About</a> </div>
-        <div id="store"><a  href="">Store</a> </div>
-        <div id="gmail"><a  href="">Gmail</a> </div>
-        <div id="images"><a  href="">Images</a>  </div>
-        <div id="accountprofile"><img id="profilelogo" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
+        <div id="leftheader"><a href="">About</a>  <a  href="">Store</a> </div>
+       
+        <div id="rightheader"><a  href="">Gmail</a>
+        <a  href="">Images</a>
+        <img id="profilelogo" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
         </div>
 
     <div class="main">
@@ -60,15 +58,12 @@
 <button>Search Foogle</button> <button>I'm Feeling Lucky</button> </div>
 
 
-        <div class="footer">
-            <a href="">Advertising</a> <a href="">Business</a> <a href="">How Search works</a>
-            <a href="">Privacy</a> <a href="">Terms</a> <a href="">Settings</a>
-        </footer></div>
+        <div id="leftfooter">
+            <a href="">Advertising</a> <a href="">Business</a> <a href="">How Search works</a></div>
+        
+            <div id="rightfooter">
+            <a href="">Privacy</a> <a href="">Terms</a> <a href="">Settings</a> </div>
 
 </div>
-
-
-
-
 
 </html>
