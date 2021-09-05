@@ -5,14 +5,28 @@
     <style>
     
     #leftheader{
-       grid-column: 1/2;
-    }
+       grid-column: 1/2;}
+       
+       #about{
+           float: left;
+       }
+       
+       #store{
+           float: left;
+       }
+    
 
     #rightheader{
         grid-column: 6/7;}
-    
+    #gmail{
+        float:left;
+    }
+    #images{
+        float: none;
+    }
     #profilelogo{
         width:25px;
+        float: right;
     }
     #main {
         grid-area:2/2/3/6;
@@ -43,11 +57,15 @@
 
 <div class="container">
     
-        <div id="leftheader"><a href="">About</a>  <a  href="">Store</a> </div>
+        <div id="leftheader">
+            <div id="about"><a href="">About</a></div>  
+           <div id="store"> <a href="">Store</a> </div>
+        </div>
        
-        <div id="rightheader"><a  href="">Gmail</a>
-        <a  href="">Images</a>
-        <img id="profilelogo" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
+        <div id="rightheader">
+            <div id="gmail"><a  href="">Gmail</a></div>
+            <div id="images"><a  href="">Images</a></div>
+            <img id="profilelogo" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
         </div>
 
     <div id="main">
