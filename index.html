@@ -3,8 +3,24 @@
     <head></head>
 
     <style>
-    #accountprofile{
+    
+    #about{
+       grid-column-start: 1;
+       grid-column-end: 2;
+    }
+    #store{
+       grid-column-start: 2;
+       grid-column-end: 3;
+    }
+    #gmail{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    #profilelogo{
         width:25px;
+    }
+    .main {
+        grid-area:2/2/3/6;
     }
     #logo{
         width:auto;
@@ -14,15 +30,6 @@
     }
     #voicesearch{
         width:15px;
-    }
-    #about{
-       grid-column: 1/2;
-    }
-    #store{
-       grid-column: 2/3;
-    }
-    .main {
-        grid-area:2/2/3/6;
     }
     .footer{
        grid-area:3/1/4/7;
@@ -38,11 +45,11 @@
 
 <div class="container">
     
-        <div><a id="about" href="">About</a> </div>
-        <div><a id="store" href="">Store</a> </div>
-        <div><a id="gmail" href="">Gmail</a> </div>
-        <div><a id="Images" href="">Images</a>  </div>
-        <div><img id="accountprofile" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
+        <div id="about"><a href="">About</a> </div>
+        <div id="store"><a  href="">Store</a> </div>
+        <div id="gmail"><a  href="">Gmail</a> </div>
+        <div id="images"><a  href="">Images</a>  </div>
+        <div id="accountprofile"><img id="profilelogo" src="https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-6/128/profile-circle2-512.png" alt="Account profile icon">
         </div>
 
     <div class="main">
