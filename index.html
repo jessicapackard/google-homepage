@@ -56,7 +56,19 @@
         width:15px;
         float:left;
     }
+    #buttonarea{
+        display: flex;
+        justify-content: center;
+    }
+    #searchbutton{
+       margin-right: 10px;
+    
+    }
 
+    #luckybutton{
+    margin-left: 10px;
+        
+    }
 
     #leftfooter{
        grid-area:3/1/4/3;
@@ -93,10 +105,16 @@
         <br></div>
         
         <div id="searchchunk">
-            <img id="mag-glass" src="https://www.maxpixel.net/static/photo/1x/Search-Bar-Magnifying-Glass-Search-To-Find-Icon-1976105.png" alt="Magnifying glass indicating search">
+            <div id="searchbar-icons"><img id="mag-glass" src="https://www.maxpixel.net/static/photo/1x/Search-Bar-Magnifying-Glass-Search-To-Find-Icon-1976105.png" alt="Magnifying glass indicating search">
             <input type="search">
             <img id="voicesearch" src="https://w7.pngwing.com/pngs/611/272/png-transparent-blue-red-and-yellow-google-voice-logo-microphone-google-voice-google-search-google-logo-microphone-angle-electronics-search-engine-optimization.png" alt="Icon that switches on voice search"><br>
-            <button>Search Foogle</button> <button>I'm Feeling Lucky</button> </div>
+            </div>
+            <br>
+        <div id="buttonarea">
+            <div id="searchbutton"><button>Search Foogle</button> </div>
+            <div id="luckybutton"><button>I'm Feeling Lucky</button> </div>
+        </div>
+        </div>
 
         <div id="leftfooter">
             <a href="">Advertising</a> <a href="">Business</a> <a href="">How Search works</a></div>
